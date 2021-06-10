@@ -11,6 +11,8 @@ import Foundation
 public final class KL0212SwiftyLib {
     let name = "KL0212SwiftyLib"
     
+    public init() {}
+    
     public func add(a:Int, b:Int) -> Int {
         return a + b
     }
